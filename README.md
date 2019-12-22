@@ -21,3 +21,4 @@ Along the way, I learned how to build a responsive website with a grid layout, w
 ### CSS / Sass
 ### Prepos for compiling assets
 ### Shopify's Liquid Template
+### Shopify's ThemeKit for file/server sync on VSCode Editor.
