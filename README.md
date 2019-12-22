@@ -1,4 +1,4 @@
-# Tech-Geeks-Repair-Store-Shopify-theme-
+# Tech-Geeks-Repair-Store-Shopify-theme
 
 https://tech-geeks-repair.myshopify.com/
 
@@ -7,7 +7,7 @@ Password to viewing the store (free trial): yoseil
 ***
 
 ## What is this?
-This is a Shopify theme build from scratch. 
+This is a Shopify theme/store build from scratch. 
 
 ## What did I learn?
 I learned how to navigate through Shopify's hosted platform by building a theme/store from the ground up without any boilerplate code.
