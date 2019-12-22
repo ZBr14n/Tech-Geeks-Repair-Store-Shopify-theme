@@ -1,0 +1,21 @@
+
+  /* Portfolio */
+  .portfolio {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    
+  }
+  
+  .portfolio img {
+    width: 100%;
+    box-shadow: var(--shadow);
+
+    // We want to make the image "bump" up as the user hovers the cursor over to the image.
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+  }
+  .portfolio > img:hover {    
+    top: -10px;
+  }

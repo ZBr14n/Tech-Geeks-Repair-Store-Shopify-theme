@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Us | Tech Geeks Repair</title>
+    {{ 'application.scss' | asset_url | stylesheet_tag }}
+    {{ '_footer-style.css' | asset_url | stylesheet_tag }}
+</head>
+<body>
+    {% include 'Navigation' %}
+
+    <div class="content-wrapper">
+    <h1>ABOUT US</h1>
+    <div class="upper-line"></div>
+
+    <div class="about-us">
+        <p>Tech Geeks Repair is based on the belief that our customers' needs are
+        of the utmost importance. Our entire team is committed to meeting those needs.
+        As a result, a high percentage of our business is from repeat customers and referrals. 
+        Tech Geeks Repair is focused on providing high-quality service and customer satisfaction. 
+        We will do everything we can to meet your expectations. </p>
+
+        <p>We would welcome the opportunity to earn your trust and deliver you the best service in the industry.</p>
+    </div>
+    <br>
+
+    <div class="lower-line"></div>
+
+    <img src="{{ 'motherboard.jpg' | | asset_url }}" width="978px" height="408px" />
+    <img src="{{ 'code.jpg' | | asset_url }}" width="978px" height="408px" />
+    </div>
+
+    {% include 'Footer' %}
+</body>
+</html>

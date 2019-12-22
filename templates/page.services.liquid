@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Services | Tech Geeks Repair | Computer Repair, iphone Repair, PS4 Repair, TV Repair</title>
+    {{ 'application.scss' | asset_url | stylesheet_tag }}
+    {{ '_portfolio-style.css' | asset_url | stylesheet_tag }}
+    {{ '_footer-style.css' | asset_url | stylesheet_tag }}
+</head>
+<body>
+    {% include 'Navigation' %}
+    
+    <h1 class="service-header">Repairs & Upgrades | Buy & Sell</h1>
+    <div class="services">        
+        
+        <ul>
+            <li>Computer Setup</li>
+            <li>Email Setup, Hardware</li>
+            <li>Printer Setup and Troubleshooting</li>
+            <li>Computer Clean-up & Optimization</li>
+            <li>Wireless Networking Setup</li>       
+        </ul>
+        <ul>
+            <li>Computer Tune-up, Data & Recovery</li>
+            <li>Hardware Repair, Operating System</li>            
+            <li>Software , Virus & Spyware Removal</li>
+            <li>Networking & Protection</li>
+            <li>TV, Video & Gaming Setup</li> 
+        </ul>
+    </div>
+
+    <div class="computer-images">
+        {% include 'Portfolio-Blocks' %}        
+    </div>
+
+    {% include 'Footer' %}
+</body>
+</html>

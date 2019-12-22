@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+  
+  <title>{{ page_title }}</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="{{ page_description | escape }}">
+  <link rel="canonical" href="{{ canonical_url }}">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+
+  {{ content_for_header }} <!-- Header hook for plugins -->
+  {{ 'application.scss' | asset_url | stylesheet_tag }}
+  {{ 'ContactForm.scss.css' | asset_url | stylesheet_tag }} 
+  <!-- {{ 'application.js' | asset_url | script_tag }} -->  
+  {{ '_portfolio-style.css' | asset_url | stylesheet_tag }} 
+</head>
+<body>
+
+  <div class="wrapper">
+    {% include 'Navigation' %}
+
+    <!-- Top Container -->
+    <section class="top-container">
+      <header class="showcase">
+        <h1>Repairing All Computer, Phone, & Electronics</h1>
+        <p>Tech Geeks Repair is based on the belief that our customers' needs are of the utmost importance. Our entire team is committed to meeting those needs. As a result, a high percentage of our business is from repeat customers and referrals.</p>
+        <a href="https://tech-geeks-repair.myshopify.com/pages/about" class="btn">Read More</a>
+      </header>
+      
+      <div class="top-box top-box-a">
+        <i class="fas fa-network-wired fa-4x"></i>
+        <h4>HOME NETWORK SUPPORT</h4>
+        <!-- <p class="price">$199</!-->
+        <!-- <a href="" class="btn">Buy Now</a> -->
+      </div>
+      <div class="top-box top-box-b">
+        <i class="fas fa-shield-alt fa-4x"></i>
+        <h4>IT SECURITY SERVICES</h4>
+        <!-- <p class="price">$299</p>
+        <a href="" class="btn">Buy Now</a> -->
+      </div>
+    </section>
+
+    <!-- Boxes Section -->
+    <section class="boxes">
+      <div class="box">
+        <i class="fas fa-tools fa-4x"></i>
+        <h3>ELECTRONIC REPAIRS</h3>
+        <p>Tablets, Cell Phones, MAC Computers, Windows PC, Gaming Console.</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-database fa-4x"></i>
+        <h3>DATA RECOVERY SERVICES</h3>
+        <p>Accidentally deleted some files and folders? We can help restore them back!</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-file-code fa-4x"></i>
+        <h3>WEB DESIGN & DEVELOPMENT SERVICES</h3>
+        <p>We help clients generate more revenue by building a better customer experience and brand value.</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-users fa-4x"></i>
+        <h3>FOR SMALL BUSINESS</h3>
+        <p>We provide Managed IT Services for small businesses</p>
+      </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="info">
+      <img src="{{ 'cracked_screen.png' | asset_url }}" alt="" />
+      <div>
+        <h2>Expert Repairs Done Fast</h2>
+        <p>Your gadgets play a major role in your professional and personal life. When they break you want an expert to handle the repair, this is where we come in;  we can get the job done quickly and efficiently.</p>
+        <a href="https://tech-geeks-repair.myshopify.com/pages/about" class="btn">Learn More</a>
+      </div>
+    </section>
+
+    {% include 'Portfolio' %}
+
+    {% include 'Footer' %}
+
+  </div>
+</body>
+</html>
+
+
+  
+
+<!-- 
+  {% for link in linklists.main-menu.links %}
+    {% assign child_list_handle = link.title | handleize %}
+    {% if linklists[child_list_handle].links != blank %}
+      <a href="{{ link.url }}">{{ link.title }}</a>
+      [{% for childlink in linklists[child_list_handle].links %}
+        <a href="{{ childlink.url }}">{{ childlink.title | escape }}</a>
+      {% endfor %}]
+    {% else %}
+      <a href="{{ link.url }}">{{ link.title }}</a>
+    {% endif %}
+  {% endfor %}
+
+  <a href="/cart">cart</a>
+
+  {% if shop.customer_accounts_enabled %}
+    {% if customer %}
+      <a href="/account">account</a>
+      {{ 'log out'  | customer_logout_link }}
+    {% else %}
+      {{ 'log in ' | customer_login_link }}
+      {{ 'register' | customer_register_link }}
+    {% endif %}
+  {% endif %}
+
+  <main role="main">
+    {{ content_for_layout }}
+  </main> -->

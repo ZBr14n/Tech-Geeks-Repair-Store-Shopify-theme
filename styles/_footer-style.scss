@@ -1,0 +1,23 @@
+/* Footer */
+footer {
+    margin-top: 2rem;
+    background: var(--dark);
+    color: var(--light);
+    text-align: center;
+    padding: 1rem;
+
+
+    a{
+        display: inline;
+        text-decoration: none;
+        padding: 20px;
+        color: white;
+
+        position: relative;
+        transition: top ease 0.5s;
+        top: 0px;
+        &:hover{
+            top: -10px;
+        }
+    }
+} 
