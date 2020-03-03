@@ -1,8 +1,10 @@
 # Tech-Geeks-Repair-Store-Shopify-theme
 
-https://tech-geeks-repair.myshopify.com/
+http://newgoldengate.surge.sh/
 
-Password to viewing the store (free trial): yoseil
+~~https://tech-geeks-repair.myshopify.com/
+
+~~Password to viewing the store (free trial): yoseil
 
 ***
 
