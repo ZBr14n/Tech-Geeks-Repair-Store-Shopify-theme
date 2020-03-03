@@ -2,9 +2,9 @@
 
 http://newgoldengate.surge.sh/
 
-~~https://tech-geeks-repair.myshopify.com/ ~~
+~~https://tech-geeks-repair.myshopify.com/~~
 
-~~Password to viewing the store (free trial): yoseil ~~
+~~Password to viewing the store (free trial): yoseil~~
 
 ***
 
