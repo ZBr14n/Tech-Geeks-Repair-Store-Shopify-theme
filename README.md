@@ -1,6 +1,6 @@
 # Tech-Geeks-Repair-Store-Shopify-theme
 
-tech-geeks-repair.surge.sh
+https://tech-geeks-repair.surge.sh/
 
 ~~https://tech-geeks-repair.myshopify.com/~~
 
