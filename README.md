@@ -2,6 +2,8 @@
 
 https://tech-geeks-repair.surge.sh/
 
+I no longer pay for the Shopify subscription to host the store. I have converted the files over to regular HTML, CSS, and JavaScript files.
+
 ~~https://tech-geeks-repair.myshopify.com/~~
 
 ~~Password to viewing the store (free trial): yoseil~~
