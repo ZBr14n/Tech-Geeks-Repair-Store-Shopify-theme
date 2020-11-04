@@ -1,11 +1,14 @@
 # Tech-Geeks-Repair-Store-Shopify-theme
 
+
 https://tech-geeks-repair-store.myshopify.com/
 
-Password to viewing the store: egiepo
+### Password to viewing the store: egiepo
 
 
-Converted the files over to regular HTML, CSS, and JavaScript files:
+
+
+### Converted the files over to regular HTML, CSS, and JavaScript files:
 
 https://tech-geeks-repair.surge.sh/
 
